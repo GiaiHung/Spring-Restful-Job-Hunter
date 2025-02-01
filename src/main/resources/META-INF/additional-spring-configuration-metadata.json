@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "giaihung.jwt.access-token-validity-in-seconds",
+    "type": "java.lang.String",
+    "description": "A description for 'giaihung.jwt.access-token-validity-in-seconds'"
+  },
+  {
+    "name": "giaihung.jwt.refresh-token-validity-in-seconds",
+    "type": "java.lang.String",
+    "description": "A description for 'giaihung.jwt.refresh-token-validity-in-seconds'"
+  },
+  {
+    "name": "giaihung.jwt.base64-secret",
+    "type": "java.lang.String",
+    "description": "A description for 'giaihung.jwt.base64-secret'"
+  },
+  {
+    "name": "upload-file.base-path",
+    "type": "java.lang.String",
+    "description": "A description for 'upload-file.base-path'"
+  }
+]}

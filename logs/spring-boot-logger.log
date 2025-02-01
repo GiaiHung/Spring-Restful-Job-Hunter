@@ -1,0 +1,169 @@
+2025-01-23 15:04:13,310 INFO o.s.b.StartupInfoLogger [restartedMain] Starting JobhunterApplication using Java 17.0.12 with PID 27100 (D:\Code\Spring\Restful API - hoidanit\02-java-spring-jobhunter-full\bin\main started by giaihung in D:\Code\Spring\Restful API - hoidanit\02-java-spring-jobhunter-full)
+2025-01-23 15:04:13,312 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-01-23 15:04:13,902 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 15:04:13,953 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50 ms. Found 8 JPA repository interfaces.
+2025-01-23 15:04:14,174 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-01-23 15:04:14,175 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-01-23 15:04:14,176 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-01-23 15:04:14,208 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-01-23 15:04:14,208 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 894 ms
+2025-01-23 15:04:14,318 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 15:04:14,323 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-01-23 15:04:14,330 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-23 15:04:14,332 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2025-01-23 15:04:14,347 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@162c0b37
+2025-01-23 15:04:14,348 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2025-01-23 15:04:14,494 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-23 15:04:14,568 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:04:15,008 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 15:04:15,260 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-01-23 15:04:15,296 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10790f3c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d707be9, org.springframework.security.web.context.SecurityContextHolderFilter@2fc10bb, org.springframework.security.web.header.HeaderWriterFilter@5184cda2, org.springframework.web.filter.CorsFilter@14702ddf, org.springframework.security.web.authentication.logout.LogoutFilter@223e340e, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@19249208, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17d47f3c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a9db1ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c83f141, org.springframework.security.web.session.SessionManagementFilter@35ed4865, org.springframework.security.web.access.ExceptionTranslationFilter@6f579622, org.springframework.security.web.access.intercept.AuthorizationFilter@1228a6b8]
+2025-01-23 15:04:15,554 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-01-23 15:04:15,572 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2025-01-23 15:04:15,580 INFO o.s.b.StartupInfoLogger [restartedMain] Started JobhunterApplication in 2.372 seconds (process running for 1027.41)
+2025-01-23 15:04:15,598 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-01-23 15:04:21,084 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 15:04:21,085 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2025-01-23 15:04:21,087 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2025-01-23 15:04:21,114 WARN v.g.j.c.UserController [http-nio-8080-exec-2] WARN >>> Request to get specific user by id: GetUserResDTO [id=1, email=admin@gmail.com, name=I'm super admin, gender=MALE, address=hn, age=25, updatedAt=2025-01-23T01:22:30.164300Z, createdAt=null, company=null, role=vn.giaihung.jobhunter.domain.dto.response.role.RoleGetRestDTO@387a9d74]
+2025-01-23 15:04:21,115 INFO v.g.j.c.UserController [http-nio-8080-exec-2] INFO >>> Request to get specific user by id: GetUserResDTO [id=1, email=admin@gmail.com, name=I'm super admin, gender=MALE, address=hn, age=25, updatedAt=2025-01-23T01:22:30.164300Z, createdAt=null, company=null, role=vn.giaihung.jobhunter.domain.dto.response.role.RoleGetRestDTO@387a9d74]
+2025-01-23 15:04:21,116 ERROR v.g.j.c.UserController [http-nio-8080-exec-2] ERROR >>> Request to get specific user by id: GetUserResDTO [id=1, email=admin@gmail.com, name=I'm super admin, gender=MALE, address=hn, age=25, updatedAt=2025-01-23T01:22:30.164300Z, createdAt=null, company=null, role=vn.giaihung.jobhunter.domain.dto.response.role.RoleGetRestDTO@387a9d74]
+2025-01-23 15:06:04,351 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-23 15:06:04,378 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:06:04,379 INFO c.z.h.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2025-01-23 15:06:04,383 INFO c.z.h.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2025-01-23 15:06:04,489 INFO o.s.b.StartupInfoLogger [restartedMain] Starting JobhunterApplication using Java 17.0.12 with PID 27100 (D:\Code\Spring\Restful API - hoidanit\02-java-spring-jobhunter-full\bin\main started by giaihung in D:\Code\Spring\Restful API - hoidanit\02-java-spring-jobhunter-full)
+2025-01-23 15:06:04,489 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-01-23 15:06:04,928 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 15:06:04,948 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 19 ms. Found 8 JPA repository interfaces.
+2025-01-23 15:06:05,128 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-01-23 15:06:05,129 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-01-23 15:06:05,129 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-01-23 15:06:05,156 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-01-23 15:06:05,156 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 664 ms
+2025-01-23 15:06:05,256 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 15:06:05,258 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-01-23 15:06:05,262 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-23 15:06:05,264 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2025-01-23 15:06:05,274 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6eb752da
+2025-01-23 15:06:05,275 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2025-01-23 15:06:05,402 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-23 15:06:05,464 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:06:05,988 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 15:06:06,213 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-01-23 15:06:06,251 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65fa9847, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70be0436, org.springframework.security.web.context.SecurityContextHolderFilter@c3d771, org.springframework.security.web.header.HeaderWriterFilter@382ea5eb, org.springframework.web.filter.CorsFilter@54246baf, org.springframework.security.web.authentication.logout.LogoutFilter@3962ae6b, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@5899b90f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@97e39cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4375a029, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e81d4ae, org.springframework.security.web.session.SessionManagementFilter@4a235de1, org.springframework.security.web.access.ExceptionTranslationFilter@1a8b01c4, org.springframework.security.web.access.intercept.AuthorizationFilter@7d346efb]
+2025-01-23 15:06:06,494 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-01-23 15:06:06,511 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2025-01-23 15:06:06,520 INFO o.s.b.StartupInfoLogger [restartedMain] Started JobhunterApplication in 2.057 seconds (process running for 1138.359)
+2025-01-23 15:06:06,540 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-01-23 15:07:58,467 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 15:07:58,468 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+2025-01-23 15:07:58,470 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-4] Completed initialization in 1 ms
+2025-01-23 15:07:58,497 WARN v.g.j.c.UserController [http-nio-8080-exec-4] WARN >>> Request to get specific user by id: GetUserResDTO [id=1, email=admin@gmail.com, name=I'm super admin, gender=MALE, address=hn, age=25, updatedAt=2025-01-23T01:22:30.164300Z, createdAt=null, company=null, role=vn.giaihung.jobhunter.domain.dto.response.role.RoleGetRestDTO@66defaff]
+2025-01-23 15:07:58,498 INFO v.g.j.c.UserController [http-nio-8080-exec-4] INFO >>> Request to get specific user by id: GetUserResDTO [id=1, email=admin@gmail.com, name=I'm super admin, gender=MALE, address=hn, age=25, updatedAt=2025-01-23T01:22:30.164300Z, createdAt=null, company=null, role=vn.giaihung.jobhunter.domain.dto.response.role.RoleGetRestDTO@66defaff]
+2025-01-23 15:07:58,499 ERROR v.g.j.c.UserController [http-nio-8080-exec-4] ERROR >>> Request to get specific user by id: GetUserResDTO [id=1, email=admin@gmail.com, name=I'm super admin, gender=MALE, address=hn, age=25, updatedAt=2025-01-23T01:22:30.164300Z, createdAt=null, company=null, role=vn.giaihung.jobhunter.domain.dto.response.role.RoleGetRestDTO@66defaff]
+2025-01-23 15:09:01,717 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-23 15:09:01,748 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-21] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:09:01,750 INFO c.z.h.HikariDataSource [Thread-21] HikariPool-5 - Shutdown initiated...
+2025-01-23 15:09:01,755 INFO c.z.h.HikariDataSource [Thread-21] HikariPool-5 - Shutdown completed.
+2025-01-23 15:09:01,857 INFO o.s.b.StartupInfoLogger [restartedMain] Starting JobhunterApplication using Java 17.0.12 with PID 27100 (D:\Code\Spring\Restful API - hoidanit\02-java-spring-jobhunter-full\bin\main started by giaihung in D:\Code\Spring\Restful API - hoidanit\02-java-spring-jobhunter-full)
+2025-01-23 15:09:01,858 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-01-23 15:09:02,233 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 15:09:02,251 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 8 JPA repository interfaces.
+2025-01-23 15:09:02,408 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-01-23 15:09:02,409 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-01-23 15:09:02,409 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-01-23 15:09:02,435 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-01-23 15:09:02,435 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 576 ms
+2025-01-23 15:09:02,560 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 15:09:02,563 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-01-23 15:09:02,567 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-23 15:09:02,568 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2025-01-23 15:09:02,579 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f7a6979
+2025-01-23 15:09:02,580 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2025-01-23 15:09:02,710 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-23 15:09:02,776 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:09:03,188 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 15:09:03,439 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-01-23 15:09:03,489 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@519eb3a9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2489d7cb, org.springframework.security.web.context.SecurityContextHolderFilter@6df5e2e4, org.springframework.security.web.header.HeaderWriterFilter@add4a15, org.springframework.web.filter.CorsFilter@297f9fcc, org.springframework.security.web.authentication.logout.LogoutFilter@6866fe2b, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@235ecb91, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21833b94, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3aee82bf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b274575, org.springframework.security.web.session.SessionManagementFilter@12e898e0, org.springframework.security.web.access.ExceptionTranslationFilter@31390dc, org.springframework.security.web.access.intercept.AuthorizationFilter@1fd68d18]
+2025-01-23 15:09:03,738 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-01-23 15:09:03,757 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2025-01-23 15:09:03,763 INFO o.s.b.StartupInfoLogger [restartedMain] Started JobhunterApplication in 1.928 seconds (process running for 1315.615)
+2025-01-23 15:09:03,781 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-01-23 15:09:08,172 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 15:09:08,173 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2025-01-23 15:09:08,176 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2025-01-23 15:09:08,183 INFO v.g.j.c.PermissionInterceptor [http-nio-8080-exec-1] >>> RUN preHandle
+2025-01-23 15:09:08,184 INFO v.g.j.c.PermissionInterceptor [http-nio-8080-exec-1] >>> path= /api/v1/users/{id}
+2025-01-23 15:09:08,184 INFO v.g.j.c.PermissionInterceptor [http-nio-8080-exec-1] >>> httpMethod= GET
+2025-01-23 15:09:08,185 INFO v.g.j.c.PermissionInterceptor [http-nio-8080-exec-1] >>> requestURI= /api/v1/users/1
+2025-01-23 15:09:08,210 WARN v.g.j.c.UserController [http-nio-8080-exec-1] WARN >>> Request to get specific user by id: GetUserResDTO [id=1, email=admin@gmail.com, name=I'm super admin, gender=MALE, address=hn, age=25, updatedAt=2025-01-23T01:22:30.164300Z, createdAt=null, company=null, role=vn.giaihung.jobhunter.domain.dto.response.role.RoleGetRestDTO@18c093eb]
+2025-01-23 15:09:08,211 INFO v.g.j.c.UserController [http-nio-8080-exec-1] INFO >>> Request to get specific user by id: GetUserResDTO [id=1, email=admin@gmail.com, name=I'm super admin, gender=MALE, address=hn, age=25, updatedAt=2025-01-23T01:22:30.164300Z, createdAt=null, company=null, role=vn.giaihung.jobhunter.domain.dto.response.role.RoleGetRestDTO@18c093eb]
+2025-01-23 15:09:08,212 ERROR v.g.j.c.UserController [http-nio-8080-exec-1] ERROR >>> Request to get specific user by id: GetUserResDTO [id=1, email=admin@gmail.com, name=I'm super admin, gender=MALE, address=hn, age=25, updatedAt=2025-01-23T01:22:30.164300Z, createdAt=null, company=null, role=vn.giaihung.jobhunter.domain.dto.response.role.RoleGetRestDTO@18c093eb]
+2025-01-23 15:10:29,538 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-01-23 15:10:29,598 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-25] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:10:29,600 INFO c.z.h.HikariDataSource [Thread-25] HikariPool-6 - Shutdown initiated...
+2025-01-23 15:10:29,604 INFO c.z.h.HikariDataSource [Thread-25] HikariPool-6 - Shutdown completed.
+2025-01-23 15:10:29,711 INFO o.s.b.StartupInfoLogger [restartedMain] Starting JobhunterApplication using Java 17.0.12 with PID 27100 (D:\Code\Spring\Restful API - hoidanit\02-java-spring-jobhunter-full\bin\main started by giaihung in D:\Code\Spring\Restful API - hoidanit\02-java-spring-jobhunter-full)
+2025-01-23 15:10:29,712 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-01-23 15:10:30,047 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 15:10:30,069 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 21 ms. Found 8 JPA repository interfaces.
+2025-01-23 15:10:30,216 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-01-23 15:10:30,217 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-01-23 15:10:30,217 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-01-23 15:10:30,243 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-01-23 15:10:30,244 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 530 ms
+2025-01-23 15:10:30,354 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 15:10:30,358 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-01-23 15:10:30,361 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-23 15:10:30,362 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2025-01-23 15:10:30,373 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23360e5c
+2025-01-23 15:10:30,374 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2025-01-23 15:10:30,497 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-23 15:10:30,569 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:10:30,957 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 15:10:31,205 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-01-23 15:10:31,244 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5cbccd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@760e1844, org.springframework.security.web.context.SecurityContextHolderFilter@4f43a612, org.springframework.security.web.header.HeaderWriterFilter@7a38bb12, org.springframework.web.filter.CorsFilter@6698527d, org.springframework.security.web.authentication.logout.LogoutFilter@1c5395aa, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@56240012, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3273a1d8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7247d01c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6449f01d, org.springframework.security.web.session.SessionManagementFilter@542acd7e, org.springframework.security.web.access.ExceptionTranslationFilter@559d77b6, org.springframework.security.web.access.intercept.AuthorizationFilter@7b00293d]
+2025-01-23 15:10:31,492 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-01-23 15:10:31,512 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2025-01-23 15:10:31,520 INFO o.s.b.StartupInfoLogger [restartedMain] Started JobhunterApplication in 1.831 seconds (process running for 1403.377)
+2025-01-23 15:10:31,521 INFO v.g.j.c.DatabaseInitializer [restartedMain] >>> START INIT DATABASE
+2025-01-23 15:10:31,536 INFO v.g.j.c.DatabaseInitializer [restartedMain] >>> SKIP INIT DATABASE ~ ALREADY HAVE DATA...
+2025-01-23 15:10:31,538 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2025-01-23 15:10:44,489 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 15:10:44,489 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2025-01-23 15:10:44,491 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2025-01-23 15:10:44,494 INFO v.g.j.c.PermissionInterceptor [http-nio-8080-exec-2] >>> RUN preHandle
+2025-01-23 15:10:44,495 INFO v.g.j.c.PermissionInterceptor [http-nio-8080-exec-2] >>> path= /api/v1/users/{id}
+2025-01-23 15:10:44,496 INFO v.g.j.c.PermissionInterceptor [http-nio-8080-exec-2] >>> httpMethod= GET
+2025-01-23 15:10:44,497 INFO v.g.j.c.PermissionInterceptor [http-nio-8080-exec-2] >>> requestURI= /api/v1/users/1
+2025-01-23 15:11:15,307 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-23 15:11:15,335 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-29] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:11:15,336 INFO c.z.h.HikariDataSource [Thread-29] HikariPool-7 - Shutdown initiated...
+2025-01-23 15:11:15,341 INFO c.z.h.HikariDataSource [Thread-29] HikariPool-7 - Shutdown completed.
+2025-01-23 15:11:15,446 INFO o.s.b.StartupInfoLogger [restartedMain] Starting JobhunterApplication using Java 17.0.12 with PID 27100 (D:\Code\Spring\Restful API - hoidanit\02-java-spring-jobhunter-full\bin\main started by giaihung in D:\Code\Spring\Restful API - hoidanit\02-java-spring-jobhunter-full)
+2025-01-23 15:11:15,446 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2025-01-23 15:11:15,775 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-23 15:11:15,796 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 19 ms. Found 8 JPA repository interfaces.
+2025-01-23 15:11:15,939 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2025-01-23 15:11:15,941 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2025-01-23 15:11:15,941 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-01-23 15:11:15,965 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2025-01-23 15:11:15,966 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 518 ms
+2025-01-23 15:11:16,079 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-23 15:11:16,082 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2025-01-23 15:11:16,086 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-23 15:11:16,087 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2025-01-23 15:11:16,097 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53e9bea1
+2025-01-23 15:11:16,098 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2025-01-23 15:11:16,219 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-23 15:11:16,287 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-23 15:11:16,635 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-23 15:11:16,868 INFO o.s.b.a.e.w.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-01-23 15:11:16,903 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e6b567f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10e7d1d8, org.springframework.security.web.context.SecurityContextHolderFilter@1013559f, org.springframework.security.web.header.HeaderWriterFilter@4007aa20, org.springframework.web.filter.CorsFilter@4b307715, org.springframework.security.web.authentication.logout.LogoutFilter@114bfd8e, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@7932fa10, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20a1cb7c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24787243, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54c76ae7, org.springframework.security.web.session.SessionManagementFilter@6ca993a1, org.springframework.security.web.access.ExceptionTranslationFilter@19f23bda, org.springframework.security.web.access.intercept.AuthorizationFilter@19ec058a]
+2025-01-23 15:11:17,330 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2025-01-23 15:11:17,350 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2025-01-23 15:11:17,356 INFO o.s.b.StartupInfoLogger [restartedMain] Started JobhunterApplication in 1.931 seconds (process running for 1449.218)
+2025-01-23 15:11:17,359 INFO v.g.j.c.DatabaseInitializer [restartedMain] >>> START INIT DATABASE
+2025-01-23 15:11:17,374 INFO v.g.j.c.DatabaseInitializer [restartedMain] >>> SKIP INIT DATABASE ~ ALREADY HAVE DATA...
+2025-01-23 15:11:17,376 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
